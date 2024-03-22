@@ -1,0 +1,366 @@
+.body {
+  overflow-x: hidden;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-header {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-image {
+  width: 3%;
+  height: 5vh;
+}
+
+.logo-header {
+  margin-left: 3%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.nav-items {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 46%;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60%;
+  right: 0;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.nav-list li {
+  margin-left: 20px;
+}
+
+.div {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+.div-2 {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  min-height: 615px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 60px;
+}
+@media (max-width: 991px) {
+  .div-2 {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.img {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.div-3 {
+  position: relative;
+  display: flex;
+  width: 988px;
+  max-width: 100%;
+  flex-direction: column;
+  margin: 206px 0 88px 84px;
+}
+@media (max-width: 991px) {
+  .div-3 {
+    margin: 40px 0;
+  }
+}
+.div-4 {
+  align-self: start;
+  margin-left: 107px;
+  font: 40px Abril Fatface, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-4 {
+    max-width: 100%;
+  }
+}
+.div-5 {
+  margin-top: 37px;
+  font: 30px Akshar, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-5 {
+    max-width: 100%;
+  }
+}
+.div-6 {
+  background: linear-gradient(163deg, #fff 51.97%, rgba(14, 196, 65, 0) 102.7%);
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 34px 60px;
+}
+@media (max-width: 991px) {
+  .div-6 {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+.div-7 {
+  display: flex;
+  width: 100%;
+  max-width: 1250px;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-7 {
+    max-width: 100%;
+  }
+}
+.div-8 {
+  display: flex;
+  padding-right: 6px;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  .div-8 {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.div-9 {
+  border: 2px solid #000;
+  background-color: #8d3809;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 29px 18px;
+}
+@media (max-width: 991px) {
+  .div-9 {
+    max-width: 100%;
+  }
+}
+.div-10 {
+  font: 50px Bayon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-10 {
+    font-size: 40px;
+  }
+}
+.div-11 {
+  align-self: stretch;
+  margin-top: 211px;
+  font: 22px Bayon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-11 {
+    margin-top: 40px;
+  }
+}
+.div-12 {
+  border: 2px solid #000;
+  background-color: #fff;
+  margin-top: 184px;
+  width: 290px;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  padding: 27px 60px;
+  font: 32px Do Hyeon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-12 {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
+.div-13 {
+  border: 2px solid #000;
+  background-color: #8d3809;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 29px 12px;
+}
+@media (max-width: 991px) {
+  .div-13 {
+    max-width: 100%;
+  }
+}
+.div-14 {
+  font: 50px Bayon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-14 {
+    font-size: 40px;
+  }
+}
+.div-15 {
+  align-self: stretch;
+  margin-top: 211px;
+  font: 22px Bayon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-15 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.div-16 {
+  border: 2px solid #000;
+  background-color: #fff;
+  margin-top: 184px;
+  width: 290px;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  padding: 27px 60px;
+  font: 32px Do Hyeon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-16 {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
+.div-17 {
+  display: flex;
+  margin-top: 73px;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  .div-17 {
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+}
+.div-18 {
+  border: 2px solid #000;
+  background-color: #8d3809;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 29px 4px;
+}
+@media (max-width: 991px) {
+  .div-18 {
+    max-width: 100%;
+  }
+}
+.div-19 {
+  font: 50px Bayon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-19 {
+    font-size: 40px;
+  }
+}
+.div-20 {
+  align-self: stretch;
+  margin-top: 171px;
+  font: 22px Bayon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-20 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.div-21 {
+  border: 2px solid #000;
+  background-color: #fff;
+  margin-top: 144px;
+  width: 290px;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  padding: 27px 60px;
+  font: 32px Do Hyeon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-21 {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
+.div-22 {
+  border: 2px solid #000;
+  background-color: #8d3809;
+  display: flex;
+  flex-direction: column;
+  padding: 29px 6px;
+}
+@media (max-width: 991px) {
+  .div-22 {
+    max-width: 100%;
+  }
+}
+.div-23 {
+  font: 50px Bayon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-23 {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+.div-24 {
+  margin-top: 211px;
+  font: 22px Bayon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-24 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.div-25 {
+  border: 2px solid #000;
+  background-color: #fff;
+  align-self: center;
+  margin-top: 184px;
+  width: 290px;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  padding: 27px 60px;
+  font: 32px Do Hyeon, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-25 {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+}
